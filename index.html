@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>V2V Communication System with Advanced Safety Features</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="script.js"></script>
+
+  <header>
+    <h1>V2V Communication System with Advanced Safety Features</h1>
+    <h2>Empowering Road Safety through Cutting-Edge Technology</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#hardware">Hardware</a></li>
+      <li><a href="#software">Software</a></li>
+      <li><a href="#testing">Features Testing</a></li>
+    </ul>
+  </nav>
+
+  <section id="overview">
+    <h2>Overview</h2>
+    <p>Our V2V communication system is designed to significantly enhance road safety by enabling real-time information exchange between vehicles. This system is developed using embedded Linux, leveraging a Yocto-built image on a Raspberry Pi platform. Employing the MVC (Model-View-Controller) design pattern, our software architecture ensures modularity, scalability, and ease of maintenance.</p>
+    <p>The hardware design integrates multiple advanced sensors and components, including ultrasonic sensors for obstacle detection, GPS for precise geolocation, an Inertial Measurement Unit (IMU) for orientation and motion tracking, encoders for accurate rotational position and speed measurement, an STM32F401 microcontroller for precise motion control, and an ESP32 module utilizing the ESP-NOW communication protocol for efficient and reliable wireless communication.</p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="card-container">
+
+        <div class="feature-card">
+        <h3>Don't Pass Warning (DNPW)</h3>
+          <p>Provides alerts to prevent passing other vehicles when it's unsafe, enhancing overall road safety.</p>
+      </div>
+
+        <div class="feature-card">
+            <h3>Blind Spot Warning (BSW)</h3>
+            <p>Alerts drivers when a vehicle is detected in their blind spot, reducing the risk of accidents during lane changes.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Forward Collision Warning (FCW)</h3>
+            <p>Warns drivers of potential collisions with vehicles or obstacles ahead, allowing for timely action to avoid accidents.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Emergency Electronic Brake Light (EEBL)</h3>
+            <p>Signals to following vehicles when the brakes are applied sharply, improving reaction time and preventing rear-end collisions.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>Intersection Movement Assist (IMA)</h3>
+            <p>Helps drivers make safe maneuvers at intersections by providing alerts about cross traffic and potential hazards.</p>
+        </div>
+
+    </div>
+</section>
+
+
+  <section id="hardware">
+    <h2>Hardware</h2>
+        <p>The project includes the following hardware components:</p>
+        <ul>
+          <li>Ultrasonic Sensors</li>
+          <li>GPS</li>
+          <li>IMU</li>
+          <li>Encoder</li>
+          <li>STM32F401 for Motion</li>
+          <li>ESP32 for ESP-NOW Communication</li>
+        </ul>
+  </section>
+
+  <section id="software">
+    <h2>Software</h2>
+        <p>The software is built using embedded Linux on a Raspberry Pi, with a Yocto image and the MVC design pattern.</p>
+  </section>
+
+  <section id="testing">
+    <h2>Features Testing</h2>
+    <p>Below is a video showcasing the prototype and testing phases of our V2V Communication System:</p>
+
+    <div class="video-container">
+      <div class="video-item">
+        <iframe width="1000" height="500" src="https://www.youtube.com/embed/sample_video" frameborder="0" allowfullscreen></iframe>
+        <h3>Prototype and Testing Demonstration</h3>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
